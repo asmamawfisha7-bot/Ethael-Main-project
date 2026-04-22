@@ -1,0 +1,237 @@
+ 
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+     
+    background-color: rgb(51, 7, 211);
+    position: fixed;
+    top: 0;
+    width: 100%;
+     
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+     
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+   
+    
+     
+}
+
+.nav-links .active-link {
+    color: #c9a536; /* Golden color from image */
+}
+
+/* Dropdown Menu */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    list-style: none;
+    padding: 10px 0;
+    border: 1px solid #eee;
+}
+
+.dropdown-content li a {
+    padding: 12px 20px;
+    display: block;
+    font-weight: normal;
+    color: white;
+    background-color: blue;
+   
+}
+
+.dropdown-content li a:hover {
+    background-color: #131010;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  .logo {
+    display: flex;         /* Puts image and text side-by-side */
+    align-items: center;    /* Vertically centers the text with the logo */
+    gap: 12px;             /* Space between the logo and the name */
+    padding: 10px;
+    height: 50px;          /* Adjust logo size here */
+    width: auto;
+    border: 10px;
+    border-radius: 50px;
+  }
+
+.header{
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+     
+     
+}
+ 
+.mission-p{
+    background-color: rgb(245, 239, 239);
+    width: 50%;
+    margin: 0 auto;
+    border: 10px;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 20px;
+}
+.Appointment{
+    background-color: rgb(30, 6, 247);
+    text-align: center;
+    color: white;
+    height: 250px;
+}
+.btn-app{
+    background-color: rgb(55, 4, 241);
+    border: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+}
+.btn-app:hover{
+    background-color: green;
+}
+.history{
+    margin-left: 400px;
+    font-style: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 
+.overview{
+    width: 100%;
+    height: 400px;
+    transition: transform 0.3s ease; /* Makes the zoom smooth (0.3 seconds) */
+    cursor: pointer;
+}
+.overview:hover{
+    transform: scale(1.2);
+}
+ .ovr-p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     padding-left: 200px;
+ }
+ .ovr-btn{
+    width: 100px;
+    height: 20px;
+    background-color: rgb(166, 180, 180);
+    border: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+ }
+  .r-btn{
+    width: 100%;
+    margin-top: 100px;
+    height: 1000px;
+    background-color: #eee;
+     
+  }
+ 
+rr-btn{
+     padding: 20px;
+     width: auto;
+     height: 30px;
+     background-color: aliceblue;
+}
+   .h5{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+  .grid1{
+    display: grid;
+    display: flex;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minimax(250px, 1fr));
+  }
+  .grid3{
+    display: grid;
+    display: flex;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minimax(250px, 1fr));
+    margin-left: 200px;
+  }
+  .grid{
+     background-color: white;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     
+  }
+  .students{
+    display: grid;
+    display: flex;
+    margin-top: 100px;
+    height: 100px;
+    gap: 30px;
+    text-align: center;
+    background-color:rgb(25, 0, 255);
+    grid-template-columns: repeat(auto-fit, minimax(100px, 0.5fr));
+    
+  }
+  .students1{
+     padding: 20px;
+     background-color: rgb(4, 0, 255);
+     margin-left: 200px;
+     gap: 20px;
+     color: white;
+     height: 20px;
+  }
+  footer {
+            background-color: #222;
+            color: #efefef;
+            padding: 30px 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            
+        }
+
+        .footer-links {
+            margin-bottom: 15px;
+            text-align: center;
+            
+        }
+
+        .footer-links a {
+            color: #00aaff;
+            text-decoration: none;
+            margin: 0 10px;
+            
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Styling for the dynamic year */
+        #year {
+            font-weight: bold;
+            color: #ff9900;
+        }
